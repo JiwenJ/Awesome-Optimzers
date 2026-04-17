@@ -30,7 +30,7 @@ date,year,optimizer,paper_title,paper_url,code_url,source
 2025-06,2025,pFedSOP,pFedSOP : Accelerating Training Of Personalized Federated Learning Using Second-Order Optimization,https://arxiv.org/abs/2506.07159,,APRIL-AIGC/Awesome-Optimizer
 2025-06,2025,VR-SZD,A Structured Proximal Stochastic Variance Reduced Zeroth-order Algorithm,https://arxiv.org/abs/2506.23758,,APRIL-AIGC/Awesome-Optimizer
 2025-06,2025,TAH-QUANT,TAH-QUANT: Effective Activation Quantization in Pipeline Parallelism over Slow Network,https://arxiv.org/abs/2506.01352,,APRIL-AIGC/Awesome-Optimizer
-2025-06,2024,NYSACT,NYSACT: A SCALABLE PRECONDITIONED GRADIENT DESCENT USING NYSTRÖM APPROXIMATION,https://arxiv.org/abs/2506.08360,,APRIL-AIGC/Awesome-Optimizer
+2025-06,2025,NYSACT,NYSACT: A SCALABLE PRECONDITIONED GRADIENT DESCENT USING NYSTRÖM APPROXIMATION,https://arxiv.org/abs/2506.08360,,APRIL-AIGC/Awesome-Optimizer
 2025-06,2025,MAC,MAC: AN EFFICIENT GRADIENT PRECONDITIONING USING MEAN ACTIVATION APPROXIMATED CURVATURE,https://arxiv.org/abs/2506.08464,,APRIL-AIGC/Awesome-Optimizer
 2025-06,2025,LQ-SGD,Trustworthy Efficient Communication for Distributed Learning using LQ-SGD Algorithm,https://arxiv.org/abs/2506.17974,,APRIL-AIGC/Awesome-Optimizer
 2025-06,2025,HGM,Hindsight-Guided Momentum (HGM) Optimizer: An Approach to Adaptive Learning Rates,https://arxiv.org/abs/2506.22479,,APRIL-AIGC/Awesome-Optimizer
@@ -38,7 +38,7 @@ date,year,optimizer,paper_title,paper_url,code_url,source
 2025-06,2025,FedCurv,Blockchain-Enabled Privacy-Preserving Second-Order Federated Edge Learning in Personalized Healthcare,https://arxiv.org/abs/2506.00416,,APRIL-AIGC/Awesome-Optimizer
 2025-06,2025,FZOO,FZOO: Fast Zeroth-Order Optimizer for Fine-Tuning Large Language Models towards Adam-Scale Speed,https://arxiv.org/abs/2506.09034,,APRIL-AIGC/Awesome-Optimizer
 2025-06,2025,DAT-SGD,Enhancing Parallelism in Decentralized Stochastic Convex Optimization,https://arxiv.org/abs/2506.00961,,APRIL-AIGC/Awesome-Optimizer
-2025-06,2024,ADAACT,AN ADAPTIVE METHOD STABILIZING ACTIVATIONS FOR ENHANCED GENERALIZATION,https://arxiv.org/abs/2506.08353,,APRIL-AIGC/Awesome-Optimizer
+2025-06,2025,ADAACT,AN ADAPTIVE METHOD STABILIZING ACTIVATIONS FOR ENHANCED GENERALIZATION,https://arxiv.org/abs/2506.08353,,APRIL-AIGC/Awesome-Optimizer
 2025-05,2025,VRAdam,A Physics-Inspired Optimizer: Velocity Regularized Adam,https://arxiv.org/abs/2505.13196,,APRIL-AIGC/Awesome-Optimizer
 2025-05,2025,VAMO,VAMO: Efficient Large-Scale Nonconvex Optimization via Adaptive Zeroth Order Variance Reduction,https://arxiv.org/abs/2505.13954,,APRIL-AIGC/Awesome-Optimizer
 2025-05,2025,SUMO,SUMO: Subspace-Aware Moment-Orthogonalization for Accelerating Memory-Efficient LLM Training,https://arxiv.org/abs/2505.24749,,APRIL-AIGC/Awesome-Optimizer
@@ -93,17 +93,17 @@ date,year,optimizer,paper_title,paper_url,code_url,source
 2025-01,2025,GWT,Wavelet Meets Adam: Compressing Gradients for Memory-Efficient Training,https://arxiv.org/abs/2501.07237,,APRIL-AIGC/Awesome-Optimizer
 2025-01,2025,GCSAM,GCSAM: Gradient Centralized Sharpness Aware Minimization,https://arxiv.org/abs/2501.11584,,APRIL-AIGC/Awesome-Optimizer
 2025-01,2025,ELASTICZO,ELASTICZO: A MEMORY-EFFICIENT ON-DEVICE LEARNING WITH COMBINED ZEROTH- AND FIRST-ORDER OPTIMIZATION,https://arxiv.org/abs/2501.04287,,APRIL-AIGC/Awesome-Optimizer
-2024-12,2025,apollo,"APOLLO:SGD-LIKE MEMORY, ADAMW-LEVEL PERFORMANCE",https://arxiv.org/abs/2412.05270,,APRIL-AIGC/Awesome-Optimizer
-2024-12,2025,SWAN,SWAN: SGD WITH NORMALIZATION AND WHITENING ENABLES STATELESS LLM TRAINING,https://arxiv.org/abs/2412.13148,,APRIL-AIGC/Awesome-Optimizer
+2024-12,2024,apollo,"APOLLO:SGD-LIKE MEMORY, ADAMW-LEVEL PERFORMANCE",https://arxiv.org/abs/2412.05270,,APRIL-AIGC/Awesome-Optimizer
+2024-12,2024,SWAN,SWAN: SGD WITH NORMALIZATION AND WHITENING ENABLES STATELESS LLM TRAINING,https://arxiv.org/abs/2412.13148,,APRIL-AIGC/Awesome-Optimizer
 2024-12,2024,SGD-SaI,No More Adam: Learning Rate Scaling at Initialization is All You Need,https://arxiv.org/abs/2412.11768,,APRIL-AIGC/Awesome-Optimizer
-2024-12,2025,MIAdam,A Method for Enhancing Generalization of Adam by Multiple Integrations,https://arxiv.org/abs/2412.12473,,APRIL-AIGC/Awesome-Optimizer
-2024-12,2025,Grams,Grams: Gradient Descent with Adaptive Momentum Scaling,https://arxiv.org/abs/2412.17107,,APRIL-AIGC/Awesome-Optimizer
+2024-12,2024,MIAdam,A Method for Enhancing Generalization of Adam by Multiple Integrations,https://arxiv.org/abs/2412.12473,,APRIL-AIGC/Awesome-Optimizer
+2024-12,2024,Grams,Grams: Gradient Descent with Adaptive Momentum Scaling,https://arxiv.org/abs/2412.17107,,APRIL-AIGC/Awesome-Optimizer
 2024-12,2024,FedSTaS,FedSTaS: Client Stratification and Client Level Sampling for Efficient Federated Learning,https://arxiv.org/abs/2412.14226,,APRIL-AIGC/Awesome-Optimizer
 2024-12,2024,EXADAM,EXADAM: THE POWER OF ADAPTIVE CROSS-MOMENTS,https://arxiv.org/abs/2412.20302,,APRIL-AIGC/Awesome-Optimizer
 2024-12,2024,Adam-Real,Adam on Local Time: Addressing Nonstationarity in RL with Relative Adam Timesteps,https://arxiv.org/abs/2412.17113,,APRIL-AIGC/Awesome-Optimizer
 2024-12,2024,Adam++,Towards Simple and Provable Parameter-Free Adaptive Gradient Methods,https://arxiv.org/abs/2412.19444,,APRIL-AIGC/Awesome-Optimizer
 2024-11,2024,FedIvon,Federated Learning with Uncertainty and Personalization via Efficient Second-order Optimization,https://arxiv.org/abs/2411.18385,,APRIL-AIGC/Awesome-Optimizer
-2024-11,2025,FSGDM,ON THE PERFORMANCE ANALYSIS OF MOMENTUM METHOD: A FREQUENCY DOMAIN PERSPECTIVE,https://arxiv.org/abs/2411.19671,,APRIL-AIGC/Awesome-Optimizer
+2024-11,2024,FSGDM,ON THE PERFORMANCE ANALYSIS OF MOMENTUM METHOD: A FREQUENCY DOMAIN PERSPECTIVE,https://arxiv.org/abs/2411.19671,,APRIL-AIGC/Awesome-Optimizer
 2024-11,2024,CAdam,CAdam: Confidence-Based Optimization for Online Learning,https://arxiv.org/abs/2411.19647,,APRIL-AIGC/Awesome-Optimizer
 2024-11,2024,AGS-GD,Anisotropic Gaussian Smoothing for Gradient-based Optimization,https://arxiv.org/abs/2411.11747,,APRIL-AIGC/Awesome-Optimizer
 2024-11,2024,A-GNB,HELENE: HESSIAN LAYER-WISE CLIPPING AND GRADIENT ANNEALING FOR ACCELERATING FINETUNING LLM WITH ZEROTH-ORDER OPTIMIZATION,https://arxiv.org/abs/2411.10696,,APRIL-AIGC/Awesome-Optimizer
@@ -112,18 +112,18 @@ date,year,optimizer,paper_title,paper_url,code_url,source
 2024-10,2024,SAMPa,SAMPa: Sharpness-aware Minimization Parallelized,https://arxiv.org/abs/2410.10683,,APRIL-AIGC/Awesome-Optimizer
 2024-10,2024,OptiQ,Second-Order Optimization via Quiescence,https://arxiv.org/abs/2410.08033,,APRIL-AIGC/Awesome-Optimizer
 2024-10,2024,LeZO,SIMULTANEOUS COMPUTATION AND MEMORY EFFICIENT ZEROTH-ORDER OPTIMIZER FOR FINE-TUNING LARGE LANGUAGE MODELS,https://arxiv.org/abs/2410.09823,,APRIL-AIGC/Awesome-Optimizer
-2024-10,2025,LOZO,Enhancing zeroth-order fine-tuning for language models with low-rank structures,https://arxiv.org/abs/2410.07698,,APRIL-AIGC/Awesome-Optimizer
-2024-10,2025,LDAdam,LDADAM: ADAPTIVE OPTIMIZATION FROM LOWDIMENSIONAL GRADIENT STATISTICS,https://arxiv.org/abs/2410.16103,,APRIL-AIGC/Awesome-Optimizer
+2024-10,2024,LOZO,Enhancing zeroth-order fine-tuning for language models with low-rank structures,https://arxiv.org/abs/2410.07698,,APRIL-AIGC/Awesome-Optimizer
+2024-10,2024,LDAdam,LDADAM: ADAPTIVE OPTIMIZATION FROM LOWDIMENSIONAL GRADIENT STATISTICS,https://arxiv.org/abs/2410.16103,,APRIL-AIGC/Awesome-Optimizer
 2024-10,2024,INNAprop,A SECOND-ORDER-LIKE OPTIMIZER WITH ADAPTIVE GRADIENT SCALING FOR DEEP LEARNING,https://arxiv.org/abs/2410.05871,,APRIL-AIGC/Awesome-Optimizer
 2024-10,2024,FGSAM,Fast Graph Sharpness-Aware Minimization for Enhancing and Accelerating Few-Shot Node Classification,https://arxiv.org/abs/2410.16845,,APRIL-AIGC/Awesome-Optimizer
 2024-10,2024,CaAdam,CaAdam: Improving Adam optimizer using connection aware methods,https://arxiv.org/abs/2410.24216,,APRIL-AIGC/Awesome-Optimizer
-2024-10,2025,Addax,Addax: Utilizing Zeroth-Order Gradients to Improve Memory Efficiency and Performance of SGD for Fine-Tuning Language Models,https://arxiv.org/abs/2410.06441,,APRIL-AIGC/Awesome-Optimizer
-2024-10,2025,AdaRankGrad,Adarankgrad: Adaptive gradient-rank and moments for memory-efficient llms training and fine-tuning,https://arxiv.org/abs/2410.17881,,APRIL-AIGC/Awesome-Optimizer
+2024-10,2024,Addax,Addax: Utilizing Zeroth-Order Gradients to Improve Memory Efficiency and Performance of SGD for Fine-Tuning Language Models,https://arxiv.org/abs/2410.06441,,APRIL-AIGC/Awesome-Optimizer
+2024-10,2024,AdaRankGrad,Adarankgrad: Adaptive gradient-rank and moments for memory-efficient llms training and fine-tuning,https://arxiv.org/abs/2410.17881,,APRIL-AIGC/Awesome-Optimizer
 2024-09,2024,WarpAdam,WarpAdam: A new Adam optimizer based on Meta-Learning approach,https://arxiv.org/abs/2409.04244,,APRIL-AIGC/Awesome-Optimizer
 2024-09,2024,RSGDM,Reducing Bias in Deep Learning Optimization: The RSGDM Approach,https://arxiv.org/abs/2409.15314,,APRIL-AIGC/Awesome-Optimizer
 2024-09,2024,FedRepOpt,FedRepOpt: Gradient Re-parametrized Optimizers in Federated Learning,https://arxiv.org/abs/2409.15898,,APRIL-AIGC/Awesome-Optimizer
 2024-09,2024,FLeNS,FLeNS: Federated Learning with Enhanced Nesterov-Newton Sketch,https://arxiv.org/abs/2409.15216,,APRIL-AIGC/Awesome-Optimizer
-2024-08,2025,DOPPLER,DOPPLER: Differentially Private Optimizers with Low-pass Filter for Privacy Noise Reduction,https://arxiv.org/abs/2408.13460,,APRIL-AIGC/Awesome-Optimizer
+2024-08,2024,DOPPLER,DOPPLER: Differentially Private Optimizers with Low-pass Filter for Privacy Noise Reduction,https://arxiv.org/abs/2408.13460,,APRIL-AIGC/Awesome-Optimizer
 2024-07,2024,FADAS,FADAS: Towards Federated Adaptive Asynchronous Optimization,https://arxiv.org/abs/2407.18365,,APRIL-AIGC/Awesome-Optimizer
 2024-07,2024,CRNAS,Novel Optimization Techniques for Parameter Estimation,https://arxiv.org/abs/2407.04235,,APRIL-AIGC/Awesome-Optimizer
 2024-07,2024,BADM,BADM: Batch ADMM for Deep Learning,https://arxiv.org/abs/2407.01640,,APRIL-AIGC/Awesome-Optimizer
@@ -132,9 +132,9 @@ date,year,optimizer,paper_title,paper_url,code_url,source
 2024-06,2024,Fed-Sophia,Fed-Sophia: A Communication-Efficient Second-Order Federated Learning Algorithm,https://arxiv.org/abs/2406.06655,,APRIL-AIGC/Awesome-Optimizer
 2024-05,2024,Q-Newton,Q-Newton: Hybrid Quantum-Classical Scheduling for Accelerating Neural Network Training with Newton’s Gradient Descent,https://arxiv.org/abs/2405.00252,,APRIL-AIGC/Awesome-Optimizer
 2024-05,2024,Athena,Athena: Efficient Block-Wise Post-Training Quantization for Large Language Models Using Second-Order Matrix Derivative Information,https://arxiv.org/abs/2405.17470,,APRIL-AIGC/Awesome-Optimizer
-2024-05,2025,AdaFisher,ADAFISHER: ADAPTIVE SECOND ORDER OPTIMIZATION VIA FISHER INFORMATION,https://arxiv.org/abs/2405.16397,,APRIL-AIGC/Awesome-Optimizer
+2024-05,2024,AdaFisher,ADAFISHER: ADAPTIVE SECOND ORDER OPTIMIZATION VIA FISHER INFORMATION,https://arxiv.org/abs/2405.16397,,APRIL-AIGC/Awesome-Optimizer
 2024-05,2024,4-bit shampoo,4-bit Shampoo for Memory-Efficient Network Training,https://arxiv.org/abs/2405.18144,,APRIL-AIGC/Awesome-Optimizer
-2024-04,2025,VSGD,Variational Stochastic Gradient Descent for Deep Neural Networks,https://arxiv.org/abs/2404.06549,,APRIL-AIGC/Awesome-Optimizer
+2024-04,2024,VSGD,Variational Stochastic Gradient Descent for Deep Neural Networks,https://arxiv.org/abs/2404.06549,,APRIL-AIGC/Awesome-Optimizer
 2024-04,2024,MeZO-SVRG,Variance-reduced Zeroth-Order Methods for Fine-Tuning Language Models,https://arxiv.org/abs/2404.08080,,APRIL-AIGC/Awesome-Optimizer
 2024-04,2024,BAdam,BAdam: A Memory Efficient Full Parameter Optimization Method for Large Language Models,https://arxiv.org/abs/2404.02827,,APRIL-AIGC/Awesome-Optimizer
 2024-03,2024,FAGH,FAGH: Accelerating Federated Learning with Approximated Global Hessian,https://arxiv.org/abs/2403.11041,,APRIL-AIGC/Awesome-Optimizer
@@ -142,55 +142,41 @@ date,year,optimizer,paper_title,paper_url,code_url,source
 2024-03,2024,Adapprox,Adapprox: Adaptive Approximation in Adam Optimization via Randomized Low-Rank Matrices,https://arxiv.org/abs/2403.14958,,APRIL-AIGC/Awesome-Optimizer
 2024-02,2024,Sparse MeZO,Sparse MeZO: Less Parameters for Better Performance in Zeroth-Order LLM Fine-Tuning,https://arxiv.org/abs/2402.15751,,APRIL-AIGC/Awesome-Optimizer
 2024-02,2024,FedLion,FEDLION: FASTER ADAPTIVE FEDERATED OPTIMIZATION WITH FEWER COMMUNICATION,https://arxiv.org/abs/2402.09941,,APRIL-AIGC/Awesome-Optimizer
-2024-01,2025,SSAM,Stabilizing Sharpness-aware Minimization Through A Simple Renormalization Strategy,https://arxiv.org/abs/2401.07250,,APRIL-AIGC/Awesome-Optimizer
+2024-01,2024,SSAM,Stabilizing Sharpness-aware Minimization Through A Simple Renormalization Strategy,https://arxiv.org/abs/2401.07250,,APRIL-AIGC/Awesome-Optimizer
 2024-01,2024,MSAM,Momentum-SAM: Sharpness Aware Minimization without Computational Overhead,https://arxiv.org/abs/2401.12033,,APRIL-AIGC/Awesome-Optimizer
 2024-01,2024,MADA,MADA: Meta-Adaptive Optimizers through hyper-gradient Descent,https://arxiv.org/abs/2401.08893,,APRIL-AIGC/Awesome-Optimizer
-2023-12,2024,ZO-AdaMU,ZO-AdaMU Optimizer: Adapting Perturbation by the Momentum and Uncertainty in Zeroth-order Optimization,https://arxiv.org/abs/2312.15184,,APRIL-AIGC/Awesome-Optimizer
-2023-12,2024,DP-AdamBC,DP-AdamBC: Your DP-Adam Is Actually DP-SGD (Unless You Apply Bias Correction),https://arxiv.org/abs/2312.14334,,APRIL-AIGC/Awesome-Optimizer
+2023-12,2023,ZO-AdaMU,ZO-AdaMU Optimizer: Adapting Perturbation by the Momentum and Uncertainty in Zeroth-order Optimization,https://arxiv.org/abs/2312.15184,,APRIL-AIGC/Awesome-Optimizer
+2023-12,2023,DP-AdamBC,DP-AdamBC: Your DP-Adam Is Actually DP-SGD (Unless You Apply Bias Correction),https://arxiv.org/abs/2312.14334,,APRIL-AIGC/Awesome-Optimizer
 2023-11,2023,SGDF,Signal Processing Meets SGD: From Momentum to Filter,https://arxiv.org/abs/2311.02818,,APRIL-AIGC/Awesome-Optimizer
-2023-11,2024,FESS-GDA,Stochastic Smoothed Gradient Descent Ascent for Federated Minimax Optimization,https://arxiv.org/abs/2311.00944,,APRIL-AIGC/Awesome-Optimizer
-2023-11,2024,Dice-SGD,DIFFERENTIALLY PRIVATE SGD WITHOUT CLIPPING BIAS: AN ERROR-FEEDBACK APPROACH,https://arxiv.org/abs/2311.14632,,APRIL-AIGC/Awesome-Optimizer
-2023-10,2025,Logit-DP,DIFFERENTIALLY PRIVATE OPTIMIZATION FOR NONDECOMPOSABLE OBJECTIVE FUNCTIONS,https://arxiv.org/abs/2310.03104,,APRIL-AIGC/Awesome-Optimizer
+2023-11,2023,FESS-GDA,Stochastic Smoothed Gradient Descent Ascent for Federated Minimax Optimization,https://arxiv.org/abs/2311.00944,,APRIL-AIGC/Awesome-Optimizer
+2023-11,2023,Dice-SGD,DIFFERENTIALLY PRIVATE SGD WITHOUT CLIPPING BIAS: AN ERROR-FEEDBACK APPROACH,https://arxiv.org/abs/2311.14632,,APRIL-AIGC/Awesome-Optimizer
+2023-10,2023,Logit-DP,DIFFERENTIALLY PRIVATE OPTIMIZATION FOR NONDECOMPOSABLE OBJECTIVE FUNCTIONS,https://arxiv.org/abs/2310.03104,,APRIL-AIGC/Awesome-Optimizer
 2023-07,2023,mL-BFGS,mL-BFGS: A Momentum-based L-BFGS for Distributed Large-Scale Neural Network Optimization,https://arxiv.org/abs/2307.13744,,APRIL-AIGC/Awesome-Optimizer
 2023-06,2023,look around,"Lookaround Optimizer: k steps around, 1 step average",https://arxiv.org/abs/2306.07684,,APRIL-AIGC/Awesome-Optimizer
 2023-06,2023,MultiAdam,MultiAdam: Parameter-wise Scale-invariant Optimizer for Multiscale Training of Physics-informed Neural Networks,https://arxiv.org/abs/2306.02816,,APRIL-AIGC/Awesome-Optimizer
-2023-05,2024,MoMo,MoMo: Momentum Models for Adaptive Learning Rates,https://arxiv.org/abs/2305.07583,,APRIL-AIGC/Awesome-Optimizer
+2023-05,2023,MoMo,MoMo: Momentum Models for Adaptive Learning Rates,https://arxiv.org/abs/2305.07583,,APRIL-AIGC/Awesome-Optimizer
 2023-05,2023,MeZO,Fine-Tuning Language Models with Just Forward Passes,https://arxiv.org/abs/2305.17333,,APRIL-AIGC/Awesome-Optimizer
 2023-05,2023,ANSGD,Learning across Data Owners with Joint Differential Privacy,https://arxiv.org/abs/2305.15723,,APRIL-AIGC/Awesome-Optimizer
-2023-04,2025,μ²-SGD,"DO STOCHASTIC, FEEL NOISELESS: STABLE STOCHASTIC OPTIMIZATION VIA A DOUBLE MOMENTUM MECHANISM",https://arxiv.org/abs/2304.04172,,APRIL-AIGC/Awesome-Optimizer
+2023-04,2023,μ²-SGD,"DO STOCHASTIC, FEEL NOISELESS: STABLE STOCHASTIC OPTIMIZATION VIA A DOUBLE MOMENTUM MECHANISM",https://arxiv.org/abs/2304.04172,,APRIL-AIGC/Awesome-Optimizer
 2023-04,2023,DP-Adam,DP-ADAM: CORRECTING DP BIAS IN ADAM’S SECOND MOMENT ESTIMATION,https://arxiv.org/abs/2304.11208,,APRIL-AIGC/Awesome-Optimizer
 2023-04,2023,AE-SAM,AN ADAPTIVE POLICY TO EMPLOY SHARPNESS-AWARE MINIMIZATION,https://arxiv.org/abs/2304.14647,,APRIL-AIGC/Awesome-Optimizer
 2023-03,2023,GAM,Gradient Norm Aware Minimization Seeks First-Order Flatness and ImprovesGeneralization,https://arxiv.org/abs/2303.03108,,APRIL-AIGC/Awesome-Optimizer
 2023-03,2023,DP-FedSAM,Make Landscape Flatter in Differentially Private Federated Learning,https://arxiv.org/abs/2303.11242,,APRIL-AIGC/Awesome-Optimizer
-2023-03,2024,AdaSAM,AdaSAM: Boosting Sharpness-Aware Minimization with Adaptive Learning Rate and Momentum for Training Deep Neural Networks,https://arxiv.org/abs/2303.00565,,APRIL-AIGC/Awesome-Optimizer
-2023-02,2024,SET-adam,On Suppressing Range of Adaptive Stepsizes of Adam to Improve Generalisation Performance,https://arxiv.org/abs/2302.01029,,APRIL-AIGC/Awesome-Optimizer
+2023-03,2023,AdaSAM,AdaSAM: Boosting Sharpness-Aware Minimization with Adaptive Learning Rate and Momentum for Training Deep Neural Networks,https://arxiv.org/abs/2303.00565,,APRIL-AIGC/Awesome-Optimizer
+2023-02,2023,SET-adam,On Suppressing Range of Adaptive Stepsizes of Adam to Improve Generalisation Performance,https://arxiv.org/abs/2302.01029,,APRIL-AIGC/Awesome-Optimizer
 2023-02,2023,FedLAP-DP,FedLAP-DP: Federated Learning by Sharing Differentially Private Loss Approximations,https://arxiv.org/abs/2302.01068,,APRIL-AIGC/Awesome-Optimizer
-2023-01,2024,AdaFedAdam,ACCELERATING FAIR FEDERATED LEARNING: ADAPTIVE FEDERATED ADAM,https://arxiv.org/abs/2301.09357,,APRIL-AIGC/Awesome-Optimizer
-2022-12,2023,RLEKF,RLEKF: An Optimizer for Deep Potential with Ab Initio Accuracy,https://arxiv.org/abs/2212.06989,,APRIL-AIGC/Awesome-Optimizer
-2022-11,2024,SkechySGD,SketchySGD: Reliable Stochastic Optimization via Randomized Curvature Estimates,https://arxiv.org/abs/2211.08597,,APRIL-AIGC/Awesome-Optimizer
-2022-11,2023,AdaCGD,Adaptive Compression for Communication-Efficient Distributed Training,https://arxiv.org/abs/2211.00188,,APRIL-AIGC/Awesome-Optimizer
+2023-01,2023,AdaFedAdam,ACCELERATING FAIR FEDERATED LEARNING: ADAPTIVE FEDERATED ADAM,https://arxiv.org/abs/2301.09357,,APRIL-AIGC/Awesome-Optimizer
+2022-12,2022,RLEKF,RLEKF: An Optimizer for Deep Potential with Ab Initio Accuracy,https://arxiv.org/abs/2212.06989,,APRIL-AIGC/Awesome-Optimizer
+2022-11,2022,SkechySGD,SketchySGD: Reliable Stochastic Optimization via Randomized Curvature Estimates,https://arxiv.org/abs/2211.08597,,APRIL-AIGC/Awesome-Optimizer
+2022-11,2022,AdaCGD,Adaptive Compression for Communication-Efficient Distributed Training,https://arxiv.org/abs/2211.00188,,APRIL-AIGC/Awesome-Optimizer
 2022-10,2022,SketchedAMSGrad,Communication-Efficient Adam-Type Algorithms for Distributed Data Mining,https://arxiv.org/abs/2210.07454,,APRIL-AIGC/Awesome-Optimizer
 2022-10,2022,DPIS,DPIS: An Enhanced Mechanism for Differentially Private SGD with Importance Sampling,https://arxiv.org/abs/2210.09634,,APRIL-AIGC/Awesome-Optimizer
-2022-08,2023,tpSGD,Learning with Local Gradients at the Edge,https://arxiv.org/abs/2208.08503,,APRIL-AIGC/Awesome-Optimizer
-2022-07,2023,AdamMC,Moment Centralization based Gradient Descent Optimizers for Convolutional Neural Networks,https://arxiv.org/abs/2207.09066,,APRIL-AIGC/Awesome-Optimizer
+2022-08,2022,tpSGD,Learning with Local Gradients at the Edge,https://arxiv.org/abs/2208.08503,,APRIL-AIGC/Awesome-Optimizer
+2022-07,2022,AdamMC,Moment Centralization based Gradient Descent Optimizers for Convolutional Neural Networks,https://arxiv.org/abs/2207.09066,,APRIL-AIGC/Awesome-Optimizer
 2022-07,2022,AdaBFE,BFE and AdaBFE: A New Approach in Learning Rate Automation for Stochastic Optimization,https://arxiv.org/abs/2207.02763,,APRIL-AIGC/Awesome-Optimizer
 2022-06,2022,DP-SGD,Normalized/Clipped SGD with Perturbation for Differentially Private Non-Convex Optimization,https://arxiv.org/abs/2206.13033,,APRIL-AIGC/Awesome-Optimizer
-2022-06,2024,AClipped-dpSGD,Efficient Private SCO for Heavy-Tailed Data via Averaged Clipping,https://arxiv.org/abs/2206.13011,,APRIL-AIGC/Awesome-Optimizer
-2022-03,2023,Aida,A DNN Optimizer that Improves over AdaBelief by Suppression of the Adaptive Stepsize Range,https://arxiv.org/abs/2203.13273,,APRIL-AIGC/Awesome-Optimizer
+2022-06,2022,AClipped-dpSGD,Efficient Private SCO for Heavy-Tailed Data via Averaged Clipping,https://arxiv.org/abs/2206.13011,,APRIL-AIGC/Awesome-Optimizer
+2022-03,2022,Aida,A DNN Optimizer that Improves over AdaBelief by Suppression of the Adaptive Stepsize Range,https://arxiv.org/abs/2203.13273,,APRIL-AIGC/Awesome-Optimizer
 2022-03,2022,AdamFamily,AdaFamily: A family of Adam-like adaptive gradient methods,https://arxiv.org/abs/2203.01603,,APRIL-AIGC/Awesome-Optimizer
 2022-03,2022,AEGDM,AN ADAPTIVE GRADIENT METHOD WITH ENERGY AND MOMENTUM,https://arxiv.org/abs/2203.12191,,APRIL-AIGC/Awesome-Optimizer
-2022-02,2023,0/1 Adam,Maximizing Communication Efficiency for Large-scale Training via 0/1 Adam,https://arxiv.org/abs/2202.06009,,APRIL-AIGC/Awesome-Optimizer
-2021-11,2024,AUTODROP,AUTODROP: TRAINING DEEP LEARNING MODELS WITH AUTOMATIC LEARNING RATE DROP,https://arxiv.org/abs/2111.15317,,APRIL-AIGC/Awesome-Optimizer
-2021-10,2022,GDA-AM,GDA-AM: On the effectiveness of solving minimax optimization via Anderson Acceleration,https://arxiv.org/abs/2110.02457,,APRIL-AIGC/Awesome-Optimizer
-2021-10,2022,ESAM,EFFICIENT SHARPNESS-AWARE MINIMIZATION FOR IMPROVED TRAINING OF NEURAL NETWORKS,https://arxiv.org/abs/2110.03141,,APRIL-AIGC/Awesome-Optimizer
-2021-09,2022,AdaInject,AdaInject: Injection Based Adaptive Gradient Descent Optimizers for Convolutional Neural Networks,https://arxiv.org/abs/2109.12504,,APRIL-AIGC/Awesome-Optimizer
-2021-07,2025,DecGD,A New Adaptive Gradient Method with Gradient Decomposition,https://arxiv.org/abs/2107.08377,,APRIL-AIGC/Awesome-Optimizer
-2021-03,2022,Step-Tuned SGD,Second-order step-size tuning of SGD for non-convex optimization,https://arxiv.org/abs/2103.03570,,APRIL-AIGC/Awesome-Optimizer
-2021-03,2022,SGDHess,Better SGD using Second-order Momentum,https://arxiv.org/abs/2103.03265,,APRIL-AIGC/Awesome-Optimizer
-2021-01,2022,MADGRAD,"Adaptivity without Compromise: A Momentumized, Adaptive, Dual Averaged Gradient Method for Stochastic Optimization",https://arxiv.org/abs/2101.11075,,APRIL-AIGC/Awesome-Optimizer
-2020-07,2024,SNGM,Stochastic Normalized Gradient Descent with Momentum for Large-Batch Training,https://arxiv.org/abs/2007.13985,,APRIL-AIGC/Awesome-Optimizer
-2020-02,2022,SRSGD,Scheduled Restart Momentum for Accelerated Stochastic Gradient Descent,https://arxiv.org/abs/2002.10583,,APRIL-AIGC/Awesome-Optimizer
-2020-02,2024,MM-PSGD,Distributed Optimization over Block-Cyclic Data,https://arxiv.org/abs/2002.07454,,APRIL-AIGC/Awesome-Optimizer
-2020-02,2024,MC-PSGD,Distributed Optimization over Block-Cyclic Data,https://arxiv.org/abs/2002.07454,,APRIL-AIGC/Awesome-Optimizer
-2019-10,2025,ZO-AdaMM,Zeroth-Order Adaptive Momentum Method for Black-Box Optimization,https://arxiv.org/abs/1910.06513,,APRIL-AIGC/Awesome-Optimizer
-2019-10,2022,SPARQ-SGD,SPARQ-SGD: Event-Triggered and Compressed Communication in Decentralized Stochastic Optimization,https://arxiv.org/abs/1910.14280,,APRIL-AIGC/Awesome-Optimizer
+2022-02,2022,0/1 Adam,Maximizing Communication Efficiency for Large-scale Training via 0/1 Adam,https://arxiv.org/abs/2202.06009,,APRIL-AIGC/Awesome-Optimizer
