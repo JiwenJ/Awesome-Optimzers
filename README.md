@@ -7,6 +7,7 @@ Current scope:
 - Start from `2022`
 - Order by time in reverse chronological order
 - Focus on deep learning and LLM-related optimizers
+- `GitHub` is optional; entries without a public implementation are still included
 
 > Structured data: [data/optimizers.csv](./data/optimizers.csv)
 
@@ -35,7 +36,11 @@ Current scope:
 | CAME | [CAME: Confidence-guided Adaptive Memory Efficient Optimization](https://arxiv.org/abs/2307.02047) | 2023 | [yangluo7/CAME](https://github.com/yangluo7/CAME) | Reduces optimizer-state cost for large models while preserving the benefits of adaptive optimization. |
 | LOMO | [Full Parameter Fine-tuning for Large Language Models with Limited Resources](https://arxiv.org/abs/2306.09782) | 2023 | [OpenLMLab/LOMO](https://github.com/OpenLMLab/LOMO) | Fuses gradient computation and parameter updates to enable low-memory full-parameter LLM fine-tuning. |
 | Prodigy | [Prodigy](https://arxiv.org/abs/2306.06101) | 2023 | [konstmish/prodigy](https://github.com/konstmish/prodigy) | A parameter-free optimizer derived from D-Adaptation that reduces or removes learning-rate tuning. |
+| DoWG | [DoWG Unleashed: An Efficient Universal Parameter-Free Gradient Descent Method](https://arxiv.org/abs/2305.16284) | 2023 | [AMorporkian/DoWG](https://github.com/AMorporkian/DoWG) | A universal parameter-free gradient method that extends DoG-style step-size adaptation with stronger empirical performance. |
 | Sophia | [Sophia](https://arxiv.org/abs/2305.14342) | 2023 | [Liuhong99/Sophia](https://github.com/Liuhong99/Sophia) | A practical stochastic second-order optimizer for language-model pretraining with modest overhead. |
+| WSAM | [Sharpness-Aware Minimization Revisited: Weighted Sharpness as a Regularization Term](https://arxiv.org/abs/2305.15817) | 2023 | [intelligent-machine-learning/dlrover](https://github.com/intelligent-machine-learning/dlrover/tree/master/atorch/atorch/optimizers) | Revisits SAM with weighted sharpness to improve generalization while keeping optimization practical. |
+| UAdam | [UAdam: Unified Adam-Type Algorithmic Framework for Non-Convex Stochastic Optimization](https://arxiv.org/abs/2305.05675) | 2023 | - | Unifies Adam-type methods in one framework and studies convergence behavior under a broad non-convex stochastic setting. |
+| FOSI | [FOSI: Hybrid First and Second Order Optimization](https://arxiv.org/abs/2302.08484) | 2023 | [hsivan/fosi](https://github.com/hsivan/fosi) | Combines first-order optimizers with second-order curvature information for faster convergence on difficult objectives. |
 | DoG | [DoG is SGD's Best Friend: A Parameter-Free Dynamic Step Size Schedule](https://arxiv.org/abs/2302.12022) | 2023 | [formll/dog](https://github.com/formll/dog) | Provides a parameter-free dynamic step-size schedule that makes SGD-style optimization far less tuning-sensitive. |
 | Lion | [Symbolic Discovery of Optimization Algorithms](https://arxiv.org/abs/2302.06675) | 2023 | [google/automl/lion](https://github.com/google/automl/tree/master/lion) | Uses sign-based momentum updates to offer a lightweight alternative to AdamW. |
 | D-Adaptation | [D-Adaptation](https://arxiv.org/abs/2301.07733) | 2023 | [facebookresearch/dadaptation](https://github.com/facebookresearch/dadaptation) | Learning-rate-free optimization for SGD, Adam, and AdaGrad variants with less manual tuning. |
@@ -43,10 +48,11 @@ Current scope:
 | Amos | [Amos](https://arxiv.org/abs/2210.11693) | 2022 | [google-research/jestimator](https://github.com/google-research/jestimator) | Introduces scale-aware adaptive decay and weight decay for Adam-style optimization. |
 | AdaNorm | [AdaNorm](https://arxiv.org/abs/2210.06364) | 2022 | [shivram1987/AdaNorm](https://github.com/shivram1987/AdaNorm) | Stabilizes adaptive optimization by correcting gradient-norm scaling behavior. |
 | Adan | [Adan: Adaptive Nesterov Momentum Algorithm](https://arxiv.org/abs/2208.06677) | 2022 | [sail-sg/Adan](https://github.com/sail-sg/Adan) | Uses adaptive Nesterov momentum to speed up and stabilize deep-model training. |
+| GradaGrad | [Grad-GradaGrad? A Non-Monotone Adaptive Stochastic Gradient Method](https://arxiv.org/abs/2206.06900) | 2022 | - | Proposes a non-monotone adaptive stochastic gradient method aimed at improving practical convergence over monotone variants. |
 
 ## Notes
 
-- This list favors papers with public implementations.
+- This list is paper-first; public implementations are linked when available.
 - Some entries link to the most canonical public implementation rather than a dedicated repo.
 - Broad survey repos such as `APRIL-AIGC/Awesome-Optimizer` also include optimizer-adjacent methods; this table keeps the main list focused on optimizers and optimizer families used for training.
 - `Muon` and `D-Muon` are listed separately: the original `Muon` entry uses the canonical 2024 write-up, while `D-Muon` refers to the 2025 scalable LLM-training paper.
