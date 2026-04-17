@@ -17,6 +17,7 @@ Curated optimizer papers from `2022+`, ordered by date in reverse chronological 
 - README list: [data/optimizers.csv](./data/optimizers.csv)
 - Full catalog: [data/all_entries.csv](./data/all_entries.csv)
 - Imported reference subset: [data/reference_catalog.csv](./data/reference_catalog.csv)
+- Full catalog includes broader optimizer variants and related papers.
 
 | Date | Optimizer Name | Advantage |
 | --- | --- | --- |
