@@ -1,11 +1,18 @@
 date,year,optimizer,paper_url,code_url,summary
 2026-04,2026,Newton-Muon,https://arxiv.org/abs/2604.01472,,Adds input-side Newton preconditioning to Muon and reduces training steps and wall-clock time in reported GPT-2 pretraining runs.
+2026-04,2026,CLion,https://arxiv.org/abs/2604.14587,,Applies cautious updates to Lion to improve generalization while preserving lightweight optimizer state and efficiency.
+2026-04,2026,Adam-HNAG,https://arxiv.org/abs/2604.08742,,Reformulates Adam with a curvature-aware correction and provides accelerated convergence guarantees in the reported setting.
+2026-02,2026,TSR-Adam,https://arxiv.org/abs/2602.08007,,Uses two-sided low-rank synchronization to reduce Adam-family communication cost in distributed training.
+2026-02,2026,NAMO,https://arxiv.org/abs/2602.17080,,Combines Muon-style orthogonalized momentum with Adam-type noise adaptation to improve stability at negligible extra cost.
 2026-02,2026,Delving into Muon and Beyond,https://arxiv.org/abs/2602.04669,https://github.com/Ocram7/BeyondMuon,Analyzes Muon through a spectral lens and studies extensions that clarify when orthogonalized updates help or fail.
 2026-01,2026,Spectral Sphere Optimizer (SSO),https://arxiv.org/abs/2601.08393,https://github.com/Unakar/Spectral-Sphere-Optimizer,Constrains both weights and updates on a spectral sphere to improve LLM training stability and outperform AdamW and Muon in reported experiments.
 2026-01,2026,Spectral Orthogonalization in Muon,https://arxiv.org/abs/2601.13474,,Shows that Muon's spectral orthogonalization acts like adaptive preconditioning and can remove condition-number dependence in studied matrix problems.
 2025-10,2025,NorMuon,https://arxiv.org/abs/2510.05491,https://github.com/zichongli5/NorMuon,Combines Muon with neuron-wise normalization and second-order statistics to improve scalability and efficiency.
+2025-10,2025,Hill-ADAM,https://arxiv.org/abs/2510.03613,,Alternates minimization and maximization phases to help Adam escape local minima in non-convex loss landscapes.
+2025-10,2025,DP-Adam-AC,https://arxiv.org/abs/2510.05288,,Adds adaptive clipping to Adam-based private fine-tuning to improve the privacy-utility trade-off for localizable language models.
 2025-09,2025,ProMO,https://openreview.net/forum?id=go388T3QjQ,,Alternates SGD and Muon to improve long-tail recognition while limiting the compute overhead of pure Muon training.
 2025-09,2025,Muon Tail-End Learning,https://arxiv.org/abs/2509.26030,,Analyzes why Muon can outperform Adam on heavy-tailed data by learning more balanced and isotropic representations.
+2025-09,2025,Conda,https://arxiv.org/abs/2509.24218,,Blends Adam-style adaptivity with column-normalized updates to improve optimization efficiency in LLM training.
 2025-09,2025,8-bit Muon,https://arxiv.org/abs/2509.23106,,Quantizes Muon optimizer states to 8-bit while retaining near-parity with full-precision Muon in reported experiments.
 2025-06,2025,SPlus,https://arxiv.org/abs/2506.07254,https://github.com/kvfrans/splus,Uses stable whitening-style preconditioning to cut gradient steps and wall-clock time in reported neural network training runs.
 2025-05,2025,PolarGrad,https://arxiv.org/abs/2505.21799,,Unifies matrix-gradient preconditioning and introduces polar-decomposition updates that outperform Adam and Muon in reported studies.
