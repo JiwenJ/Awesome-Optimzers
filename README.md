@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
 [![Papers](https://img.shields.io/badge/Papers-36-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/optimizers.csv)
 [![Code Links](https://img.shields.io/badge/Code%20Links-34-2ea44f.svg?style=flat-square&logo=github)](./data/optimizers.csv)
+[![Reference Import](https://img.shields.io/badge/Reference%20Import-195-ff8c00.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reference_catalog.csv)
 [![Coverage](https://img.shields.io/badge/Years-2022--2026-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/optimizers.csv)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/JiwenJ/Awesome-Optimzers/pulls)
 
@@ -17,7 +18,10 @@ Current scope:
 - Focus on deep learning and LLM-related optimizers
 - `GitHub` is optional; entries without a public implementation are still included
 
-> Structured data: [data/optimizers.csv](./data/optimizers.csv)
+> Main curated table: [data/optimizers.csv](./data/optimizers.csv)
+>
+> Supplementary reference import: [data/reference_catalog.csv](./data/reference_catalog.csv)
+> This file contains `195` additional `2022+` optimizer-related entries imported from the reference materials, including papers without public code links.
 
 | Optimizer Name | Paper | Date | GitHub | Advantages |
 | --- | --- | --- | --- | --- |
@@ -62,6 +66,7 @@ Current scope:
 
 - This list is paper-first; public implementations are linked when available.
 - Some entries link to the most canonical public implementation rather than a dedicated repo.
+- The README table stays curated for readability; broader reference-only coverage lives in [data/reference_catalog.csv](./data/reference_catalog.csv).
 - Broad survey repos such as `APRIL-AIGC/Awesome-Optimizer` also include optimizer-adjacent methods; this table keeps the main list focused on optimizers and optimizer families used for training.
 - `Muon` and `D-Muon` are listed separately: the original `Muon` entry uses the canonical 2024 write-up, while `D-Muon` refers to the 2025 scalable LLM-training paper.
 - Cross-check for missing modern entries was done against [APRIL-AIGC/Awesome-Optimizer](https://github.com/APRIL-AIGC/Awesome-Optimizer), [boshallen/Awesome-Optimizers](https://github.com/boshallen/Awesome-Optimizers?tab=readme-ov-file#awesome-optimizers), [AidinHamedi/Optimizer-Benchmark](https://github.com/AidinHamedi/Optimizer-Benchmark), and [Benchmarking Optimizers for Large Language Model Pretraining](https://arxiv.org/abs/2509.01440).
