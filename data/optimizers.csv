@@ -1,48 +1,48 @@
 date,year,optimizer,paper_url,code_url,summary
-2026-04,2026,Newton-Muon,https://arxiv.org/abs/2604.01472,,Adds input-side Newton preconditioning to Muon and reduces training steps and wall-clock time in reported GPT-2 pretraining runs.
-2026-04,2026,CLion,https://arxiv.org/abs/2604.14587,,Applies cautious updates to Lion to improve generalization while preserving lightweight optimizer state and efficiency.
-2026-04,2026,Adam-HNAG,https://arxiv.org/abs/2604.08742,,Reformulates Adam with a curvature-aware correction and provides accelerated convergence guarantees in the reported setting.
-2026-02,2026,TSR-Adam,https://arxiv.org/abs/2602.08007,,Uses two-sided low-rank synchronization to reduce Adam-family communication cost in distributed training.
-2026-02,2026,NAMO,https://arxiv.org/abs/2602.17080,,Combines Muon-style orthogonalized momentum with Adam-type noise adaptation to improve stability at negligible extra cost.
-2026-01,2026,Spectral Sphere Optimizer (SSO),https://arxiv.org/abs/2601.08393,https://github.com/Unakar/Spectral-Sphere-Optimizer,Constrains both weights and updates on a spectral sphere to improve LLM training stability and outperform AdamW and Muon in reported experiments.
-2025-10,2025,NorMuon,https://arxiv.org/abs/2510.05491,https://github.com/zichongli5/NorMuon,Combines Muon with neuron-wise normalization and second-order statistics to improve scalability and efficiency.
-2025-10,2025,Hill-ADAM,https://arxiv.org/abs/2510.03613,,Alternates minimization and maximization phases to help Adam escape local minima in non-convex loss landscapes.
-2025-10,2025,DP-Adam-AC,https://arxiv.org/abs/2510.05288,,Adds adaptive clipping to Adam-based private fine-tuning to improve the privacy-utility trade-off for localizable language models.
-2025-09,2025,Conda,https://arxiv.org/abs/2509.24218,,Blends Adam-style adaptivity with column-normalized updates to improve optimization efficiency in LLM training.
-2025-06,2025,SPlus,https://arxiv.org/abs/2506.07254,https://github.com/kvfrans/splus,Uses stable whitening-style preconditioning to cut gradient steps and wall-clock time in reported neural network training runs.
-2025-05,2025,PolarGrad,https://arxiv.org/abs/2505.21799,,Unifies matrix-gradient preconditioning and introduces polar-decomposition updates that outperform Adam and Muon in reported studies.
-2025-05,2025,Gluon,https://arxiv.org/abs/2505.13416,,Generalizes Muon and Scion within an LMO framework and improves layer-wise large-model optimization in the reported setting.
-2025-04,2025,Dion,https://arxiv.org/abs/2504.05295,https://github.com/microsoft/dion,Distributed orthonormalized updates that reduce large-scale training overhead while preserving Muon-style gains.
-2025-02,2025,Scion,https://arxiv.org/abs/2502.07529,https://github.com/LIONS-EPFL/scion,"Uses norm-constrained LMO updates that improve stability, memory efficiency, and hyperparameter transfer."
-2025-02,2025,D-Muon,https://arxiv.org/abs/2502.16982,https://github.com/MoonshotAI/Moonlight,Scales Muon-style orthogonalized updates to distributed LLM training and improves compute efficiency over strong AdamW baselines.
-2024-12,2024,Muon,https://kellerjordan.github.io/posts/muon/,https://github.com/KellerJordan/Muon,Uses orthogonalized matrix updates for hidden-layer weights and is typically paired with AdamW for non-matrix parameters.
-2024-11,2024,MARS,https://arxiv.org/abs/2411.10438,https://github.com/AGI-Arena/MARS,Injects variance reduction into adaptive and sign-based optimizers and reports strong GPT-2 training gains.
-2024-11,2024,Cautious Optimizers,https://arxiv.org/abs/2411.16085,https://github.com/kyleliang919/C-Optim,Adds a one-line cautious mask to momentum optimizers such as AdamW and Lion.
-2024-11,2024,ADOPT,https://arxiv.org/abs/2411.02853,https://github.com/iShohei220/adopt,A modified Adam-family method with stronger convergence guarantees and improved practical stability.
-2024-09,2024,SOAP,https://arxiv.org/abs/2409.11321,https://github.com/nikhilvyas/SOAP,Blends Shampoo-style preconditioning with Adam-style moment updates.
-2024-09,2024,AdEMAMix,https://arxiv.org/abs/2409.03137,https://github.com/apple/ml-ademamix,Mixes older-gradient EMAs into AdamW to improve token efficiency.
-2024-06,2024,Adam-mini,https://arxiv.org/abs/2406.16793,https://github.com/zyushun/Adam-mini,Uses fewer learning-rate groups to reduce optimizer memory with AdamW-like quality.
-2024-05,2024,SF-AdamW (Schedule-Free),https://arxiv.org/abs/2405.15682,https://github.com/facebookresearch/schedule_free,Removes explicit learning-rate schedules and simplifies tuning while keeping AdamW-style behavior.
-2024-05,2024,MicroAdam,https://arxiv.org/abs/2405.15593,https://github.com/IST-DASLab/MicroAdam,Compresses optimizer-state updates to reduce memory overhead while preserving convergence quality.
-2024-05,2024,FAdam,https://arxiv.org/abs/2405.12807,https://github.com/lessw2020/fadam_pytorch,Uses diagonal empirical Fisher preconditioning to make Adam behave more like a lightweight natural-gradient optimizer.
-2023-12,2023,AGD,https://arxiv.org/abs/2312.01658,https://github.com/intelligent-machine-learning/dlrover/tree/master/atorch/atorch/optimizers,Auto-switches preconditioning based on stepwise gradient differences to balance adaptivity and efficiency.
-2023-10,2023,AdaLOMO,https://arxiv.org/abs/2310.10195,https://github.com/OpenLMLab/LOMO,Low-memory optimizer with adaptive learning rates for resource-constrained full-parameter LLM fine-tuning.
-2023-09,2023,AdaPlus,https://arxiv.org/abs/2309.01966,https://github.com/guanleics/AdaPlus,Adds Nesterov momentum and more precise stepsize control on top of AdamW-style updates.
-2023-07,2023,CoRe,https://arxiv.org/abs/2307.15663,https://github.com/ReiherGroup/CoRe_optimizer,All-in-one optimizer designed to work robustly across tasks with less retuning.
-2023-07,2023,CAME,https://arxiv.org/abs/2307.02047,https://github.com/yangluo7/CAME,Confidence-guided memory-efficient optimization for large-scale model training.
-2023-07,2023,Adam+CM,https://arxiv.org/abs/2307.09638,https://github.com/chandar-lab/CMOptimizer,Adds critical momenta to Adam-style updates to improve exploration and escape poor minima.
-2023-06,2023,Prodigy,https://arxiv.org/abs/2306.06101,https://github.com/konstmish/prodigy,Parameter-free learner derived from D-Adaptation that reduces learning-rate tuning.
-2023-06,2023,LOMO,https://arxiv.org/abs/2306.09782,https://github.com/OpenLMLab/LOMO,Fuses gradient computation and parameter updates to enable low-memory full-parameter LLM fine-tuning.
-2023-05,2023,WSAM,https://arxiv.org/abs/2305.15817,https://github.com/intelligent-machine-learning/dlrover/tree/master/atorch/atorch/optimizers,Revisits SAM with weighted sharpness to improve generalization while keeping optimization practical.
-2023-05,2023,UAdam,https://arxiv.org/abs/2305.05675,,Unified Adam-type framework that studies convergence behavior across a broad class of Adam-family methods.
-2023-05,2023,Sophia,https://arxiv.org/abs/2305.14342,https://github.com/Liuhong99/Sophia,Scalable stochastic second-order optimizer for language-model pretraining.
-2023-05,2023,DoWG,https://arxiv.org/abs/2305.16284,https://github.com/AMorporkian/DoWG,Universal parameter-free gradient method that extends DoG-style step-size adaptation with stronger empirical performance.
-2023-02,2023,Lion,https://arxiv.org/abs/2302.06675,https://github.com/google/automl/tree/master/lion,Sign-based momentum optimizer discovered by symbolic search.
-2023-02,2023,FOSI,https://arxiv.org/abs/2302.08484,https://github.com/hsivan/fosi,Combines first-order optimizers with second-order curvature information for faster convergence on difficult objectives.
-2023-02,2023,DoG,https://arxiv.org/abs/2302.12022,https://github.com/formll/dog,Parameter-free dynamic step-size schedule that makes SGD-style optimization much less tuning-sensitive.
-2023-01,2023,D-Adaptation,https://arxiv.org/abs/2301.07733,https://github.com/facebookresearch/dadaptation,"Learning-rate-free optimization for SGD, Adam, and AdaGrad variants."
-2022-11,2022,VeLO,https://arxiv.org/abs/2211.09760,https://github.com/google/learned_optimization/tree/main/learned_optimization/research/general_lopt,Learned optimizer trained at scale to transfer across tasks and architectures better than smaller learned optimizers.
-2022-10,2022,Amos,https://arxiv.org/abs/2210.11693,https://github.com/google-research/jestimator,Adam-style optimizer with adaptive decay and scale-aware weight decay.
-2022-10,2022,AdaNorm,https://arxiv.org/abs/2210.06364,https://github.com/shivram1987/AdaNorm,Corrects gradient-norm scaling to stabilize adaptive optimization for CNNs.
-2022-08,2022,Adan,https://arxiv.org/abs/2208.06677,https://github.com/sail-sg/Adan,Adaptive Nesterov momentum optimizer for faster and more stable deep-model training.
-2022-06,2022,GradaGrad,https://arxiv.org/abs/2206.06900,,Non-monotone adaptive stochastic gradient method aimed at improving practical convergence over monotone variants.
+2604,2026,Newton-Muon,https://arxiv.org/abs/2604.01472,,Adds input-side Newton preconditioning to Muon and reduces training steps and wall-clock time in reported GPT-2 pretraining runs.
+2604,2026,CLion,https://arxiv.org/abs/2604.14587,,Applies cautious updates to Lion to improve generalization while preserving lightweight optimizer state and efficiency.
+2604,2026,Adam-HNAG,https://arxiv.org/abs/2604.08742,,Reformulates Adam with a curvature-aware correction and provides accelerated convergence guarantees in the reported setting.
+2602,2026,TSR-Adam,https://arxiv.org/abs/2602.08007,,Uses two-sided low-rank synchronization to reduce Adam-family communication cost in distributed training.
+2602,2026,NAMO,https://arxiv.org/abs/2602.17080,,Combines Muon-style orthogonalized momentum with Adam-type noise adaptation to improve stability at negligible extra cost.
+2601,2026,Spectral Sphere Optimizer (SSO),https://arxiv.org/abs/2601.08393,https://github.com/Unakar/Spectral-Sphere-Optimizer,Constrains both weights and updates on a spectral sphere to improve LLM training stability and outperform AdamW and Muon in reported experiments.
+2510,2025,NorMuon,https://arxiv.org/abs/2510.05491,https://github.com/zichongli5/NorMuon,Combines Muon with neuron-wise normalization and second-order statistics to improve scalability and efficiency.
+2510,2025,Hill-ADAM,https://arxiv.org/abs/2510.03613,,Alternates minimization and maximization phases to help Adam escape local minima in non-convex loss landscapes.
+2510,2025,DP-Adam-AC,https://arxiv.org/abs/2510.05288,,Adds adaptive clipping to Adam-based private fine-tuning to improve the privacy-utility trade-off for localizable language models.
+2509,2025,Conda,https://arxiv.org/abs/2509.24218,,Blends Adam-style adaptivity with column-normalized updates to improve optimization efficiency in LLM training.
+2506,2025,SPlus,https://arxiv.org/abs/2506.07254,https://github.com/kvfrans/splus,Uses stable whitening-style preconditioning to cut gradient steps and wall-clock time in reported neural network training runs.
+2505,2025,PolarGrad,https://arxiv.org/abs/2505.21799,,Unifies matrix-gradient preconditioning and introduces polar-decomposition updates that outperform Adam and Muon in reported studies.
+2505,2025,Gluon,https://arxiv.org/abs/2505.13416,,Generalizes Muon and Scion within an LMO framework and improves layer-wise large-model optimization in the reported setting.
+2504,2025,Dion,https://arxiv.org/abs/2504.05295,https://github.com/microsoft/dion,Distributed orthonormalized updates that reduce large-scale training overhead while preserving Muon-style gains.
+2502,2025,Scion,https://arxiv.org/abs/2502.07529,https://github.com/LIONS-EPFL/scion,"Uses norm-constrained LMO updates that improve stability, memory efficiency, and hyperparameter transfer."
+2502,2025,D-Muon,https://arxiv.org/abs/2502.16982,https://github.com/MoonshotAI/Moonlight,Scales Muon-style orthogonalized updates to distributed LLM training and improves compute efficiency over strong AdamW baselines.
+2412,2024,Muon,https://kellerjordan.github.io/posts/muon/,https://github.com/KellerJordan/Muon,Uses orthogonalized matrix updates for hidden-layer weights and is typically paired with AdamW for non-matrix parameters.
+2411,2024,MARS,https://arxiv.org/abs/2411.10438,https://github.com/AGI-Arena/MARS,Injects variance reduction into adaptive and sign-based optimizers and reports strong GPT-2 training gains.
+2411,2024,Cautious Optimizers,https://arxiv.org/abs/2411.16085,https://github.com/kyleliang919/C-Optim,Adds a one-line cautious mask to momentum optimizers such as AdamW and Lion.
+2411,2024,ADOPT,https://arxiv.org/abs/2411.02853,https://github.com/iShohei220/adopt,A modified Adam-family method with stronger convergence guarantees and improved practical stability.
+2409,2024,SOAP,https://arxiv.org/abs/2409.11321,https://github.com/nikhilvyas/SOAP,Blends Shampoo-style preconditioning with Adam-style moment updates.
+2409,2024,AdEMAMix,https://arxiv.org/abs/2409.03137,https://github.com/apple/ml-ademamix,Mixes older-gradient EMAs into AdamW to improve token efficiency.
+2406,2024,Adam-mini,https://arxiv.org/abs/2406.16793,https://github.com/zyushun/Adam-mini,Uses fewer learning-rate groups to reduce optimizer memory with AdamW-like quality.
+2405,2024,SF-AdamW (Schedule-Free),https://arxiv.org/abs/2405.15682,https://github.com/facebookresearch/schedule_free,Removes explicit learning-rate schedules and simplifies tuning while keeping AdamW-style behavior.
+2405,2024,MicroAdam,https://arxiv.org/abs/2405.15593,https://github.com/IST-DASLab/MicroAdam,Compresses optimizer-state updates to reduce memory overhead while preserving convergence quality.
+2405,2024,FAdam,https://arxiv.org/abs/2405.12807,https://github.com/lessw2020/fadam_pytorch,Uses diagonal empirical Fisher preconditioning to make Adam behave more like a lightweight natural-gradient optimizer.
+2312,2023,AGD,https://arxiv.org/abs/2312.01658,https://github.com/intelligent-machine-learning/dlrover/tree/master/atorch/atorch/optimizers,Auto-switches preconditioning based on stepwise gradient differences to balance adaptivity and efficiency.
+2310,2023,AdaLOMO,https://arxiv.org/abs/2310.10195,https://github.com/OpenLMLab/LOMO,Low-memory optimizer with adaptive learning rates for resource-constrained full-parameter LLM fine-tuning.
+2309,2023,AdaPlus,https://arxiv.org/abs/2309.01966,https://github.com/guanleics/AdaPlus,Adds Nesterov momentum and more precise stepsize control on top of AdamW-style updates.
+2307,2023,CoRe,https://arxiv.org/abs/2307.15663,https://github.com/ReiherGroup/CoRe_optimizer,All-in-one optimizer designed to work robustly across tasks with less retuning.
+2307,2023,CAME,https://arxiv.org/abs/2307.02047,https://github.com/yangluo7/CAME,Confidence-guided memory-efficient optimization for large-scale model training.
+2307,2023,Adam+CM,https://arxiv.org/abs/2307.09638,https://github.com/chandar-lab/CMOptimizer,Adds critical momenta to Adam-style updates to improve exploration and escape poor minima.
+2306,2023,Prodigy,https://arxiv.org/abs/2306.06101,https://github.com/konstmish/prodigy,Parameter-free learner derived from D-Adaptation that reduces learning-rate tuning.
+2306,2023,LOMO,https://arxiv.org/abs/2306.09782,https://github.com/OpenLMLab/LOMO,Fuses gradient computation and parameter updates to enable low-memory full-parameter LLM fine-tuning.
+2305,2023,WSAM,https://arxiv.org/abs/2305.15817,https://github.com/intelligent-machine-learning/dlrover/tree/master/atorch/atorch/optimizers,Revisits SAM with weighted sharpness to improve generalization while keeping optimization practical.
+2305,2023,UAdam,https://arxiv.org/abs/2305.05675,,Unified Adam-type framework that studies convergence behavior across a broad class of Adam-family methods.
+2305,2023,Sophia,https://arxiv.org/abs/2305.14342,https://github.com/Liuhong99/Sophia,Scalable stochastic second-order optimizer for language-model pretraining.
+2305,2023,DoWG,https://arxiv.org/abs/2305.16284,https://github.com/AMorporkian/DoWG,Universal parameter-free gradient method that extends DoG-style step-size adaptation with stronger empirical performance.
+2302,2023,Lion,https://arxiv.org/abs/2302.06675,https://github.com/google/automl/tree/master/lion,Sign-based momentum optimizer discovered by symbolic search.
+2302,2023,FOSI,https://arxiv.org/abs/2302.08484,https://github.com/hsivan/fosi,Combines first-order optimizers with second-order curvature information for faster convergence on difficult objectives.
+2302,2023,DoG,https://arxiv.org/abs/2302.12022,https://github.com/formll/dog,Parameter-free dynamic step-size schedule that makes SGD-style optimization much less tuning-sensitive.
+2301,2023,D-Adaptation,https://arxiv.org/abs/2301.07733,https://github.com/facebookresearch/dadaptation,"Learning-rate-free optimization for SGD, Adam, and AdaGrad variants."
+2211,2022,VeLO,https://arxiv.org/abs/2211.09760,https://github.com/google/learned_optimization/tree/main/learned_optimization/research/general_lopt,Learned optimizer trained at scale to transfer across tasks and architectures better than smaller learned optimizers.
+2210,2022,Amos,https://arxiv.org/abs/2210.11693,https://github.com/google-research/jestimator,Adam-style optimizer with adaptive decay and scale-aware weight decay.
+2210,2022,AdaNorm,https://arxiv.org/abs/2210.06364,https://github.com/shivram1987/AdaNorm,Corrects gradient-norm scaling to stabilize adaptive optimization for CNNs.
+2208,2022,Adan,https://arxiv.org/abs/2208.06677,https://github.com/sail-sg/Adan,Adaptive Nesterov momentum optimizer for faster and more stable deep-model training.
+2206,2022,GradaGrad,https://arxiv.org/abs/2206.06900,,Non-monotone adaptive stochastic gradient method aimed at improving practical convergence over monotone variants.
